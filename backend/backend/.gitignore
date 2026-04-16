@@ -1,0 +1,59 @@
+# ========================
+# Build / Output
+# ========================
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# ========================
+# Maven
+# ========================
+!.mvn/wrapper/maven-wrapper.jar
+
+# ========================
+# IDEs
+# ========================
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# STS / Eclipse
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# Environment / Secrets (CRITICAL)
+# ========================
+application.properties
+application.yml
+.env
